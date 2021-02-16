@@ -15,6 +15,11 @@ img{
     float: left;
 }
 
+.img-fit{
+    height: 125px;
+    object-fit: contain;
+}
+
 .clearfix::after{
     content: "";
     display: table;
@@ -102,3 +107,45 @@ div.col-menu ul li a{
     font-size: 50px;
     margin-bottom: 15px;
 }
+/*FINE HEADER*/
+
+/*MAIN*/
+main div.avviso{
+    padding: 2% 0;
+    text-align: center;
+    background-color: lightgrey;
+    font-size: 12px;
+    line-height: 2;
+}
+
+main div.clearfix{
+    width: 82%;
+    margin: 2% auto;
+}
+
+.col-left,
+.col-center,
+.col-right{
+    width: 33%;
+    height: 400px;
+}
+
+div.clearfix{
+    text-align: center;
+}
+
+div img{
+    margin: 15px 0;
+}
+
+div hr{
+    margin: 15px 115px;
+}
+
+.green-text{
+    color: green;
+    font-size: 22px;
+}
+
+/*FINE MAIN*/
+
