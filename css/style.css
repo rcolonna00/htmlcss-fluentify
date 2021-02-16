@@ -1,5 +1,104 @@
+/*RESET*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+ /*GENERAL*/
+img{
+    width: 100%;
+    display: block;
+}
+
+.col{
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bottom{
+    padding: 7px 15px;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+
+.green-bottom{
+    border-color: green;
+    background-color: green;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 10px;
+}
+
+/*HEADER*/
+header{
+    height: 500px;
+    width: 100%;
+    background-image: url(../img/background-header.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-color: #123861;
+    background-position: 110% 103%;
+}
+
+.contenitore{
+    width: 82%;
+    margin: auto;
+    position: relative;
+}
+
+nav{
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.col-logo{
+    width: 10%;
+}
+.col-menu{
+    width: 55%;
+}
+.col-login{
+    width: 35%;
+}
+
+div.col-menu ul li{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+div.col-menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+}
+
+.left{
+    margin: 40px 0px 0px 30px;
+}
+
+.col-login div{
+    display: inline-block;
+    font-size: 10px;
+    margin: 8px 10px;
+    color: white;
+}
+
+.primo-piano{
+    width: 57%;
+    color: white;
+    position: absolute;
+    margin-top: 15%;
+}
+
+.motto{
+    font-size: 50px;
+    margin-bottom: 15px;
 }
