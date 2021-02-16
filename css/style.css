@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
  /*GENERAL*/
@@ -123,11 +124,16 @@ main div.clearfix{
     margin: 2% auto;
 }
 
+/*tabella tre colonne*/
 .col-left,
 .col-center,
 .col-right{
-    width: 33%;
+    width: 30%;
     height: 400px;
+}
+
+.col-center{
+    margin: 0 5%;
 }
 
 div.clearfix{
@@ -144,8 +150,39 @@ div hr{
 
 .green-text{
     color: green;
-    font-size: 22px;
+    font-size: 20px;
 }
+
+hr{
+    margin: 3% 1%;
+}
+/*fine tabella tre colonne*/
+
+/*tabella due colonne*/
+.col-img,
+.col-text{
+    width: 50%;
+    height: 350px;
+}
+
+.col-img{
+    background-image: url(../img/mountain.svg);
+}
+
+.col-text{
+ text-align: left;
+ padding-left: 50px;
+ padding-top: 50px;
+}
+
+div.col-text div{
+    margin: 15px 0;
+}
+
+div.col-text a{
+    font-size: 10px;
+}
+/*finne tabella due colonne*/
 
 /*FINE MAIN*/
 
