@@ -129,7 +129,6 @@ main div.clearfix{
 .col-center,
 .col-right{
     width: 30%;
-    height: 400px;
 }
 
 .col-center{
@@ -185,4 +184,3 @@ div.col-text a{
 /*finne tabella due colonne*/
 
 /*FINE MAIN*/
-
