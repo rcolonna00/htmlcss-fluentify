@@ -86,8 +86,8 @@ div.col-menu ul li a{
     padding: 0px 10px;
 }
 
-.left{
-    margin: 40px 0px 0px 30px;
+div.col-menu ul:first-child{
+    margin: 0px 0px 0px 30px;
 }
 
 .col-login div{
