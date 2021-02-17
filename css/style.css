@@ -16,11 +16,6 @@ img{
     float: left;
 }
 
-.img-fit{
-    height: 125px;
-    object-fit: contain;
-}
-
 .clearfix::after{
     content: "";
     display: table;
@@ -39,6 +34,7 @@ img{
     text-transform: uppercase;
     display: inline-block;
     font-size: 10px;
+    padding: 10px 15px;
 }
 
 /*HEADER*/
@@ -141,6 +137,11 @@ div.clearfix{
 
 div img{
     margin: 15px 0;
+}
+
+.img-fit{
+    height: 125px;
+    object-fit: contain;
 }
 
 div hr{
